@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table
+        {
+            margin: 50px auto auto auto;
+        }
+        section
+        {
+            border: 2px solid darkslategrey;
+            margin: 5px;
+        }
+        section > h2
+        {
+            text-align: center;
+        }
+        .tablakeret
+        {
+            border: 1px solid darkslategrey;
+        }
+        .sorkeret
+        {
+            border: 1px solid darkslategrey;
+        }
+        .cellakeretezett tr
+        {
+            border: 1px solid darkslategrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coming soon...</h1>
+    <section>
+        <h2>Alap szerkezet</h2>
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </table>
+    </section>
+    <section>
+        <h2>Keret</h2>
+            <table class="tablakeret">
+                <tr class="sorkeret">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </table>
+    </section>
+    <section>
+        <h2>Cellák keretezése</h2>
+            <table class="cellakeretezett">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </table>
+    </section>
+    <section>
+        <h2>Táblázat és cellák keretezése</h2>
+            <table class="keret cellakeretezett">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </table>
+    </section>
+</body>
+</html>
